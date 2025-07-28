@@ -1,0 +1,10 @@
+.venv/
+*.pyd
+*.dll
+*.lib
+*.h5
+*.keras
+*.pkl
+__pycache__/
+.DS_Store
+*.pyc
