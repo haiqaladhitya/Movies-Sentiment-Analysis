@@ -46,6 +46,7 @@ st.markdown("""
     .sentiment-negative {
         background-color: #f8d7da;
         border: 1px solid #f5c6cb;
+        color: #000000;
         border-radius: 5px;
         padding: 1rem;
         margin: 1rem 0;
@@ -387,6 +388,8 @@ elif selected_page == "Model Overview":
     
     with col4:
         st.metric("🎯 Classification", "Binary", "Pos/Neg")
+
+    st.markdown("Dataset : https://www.kaggle.com/datasets/kazanova/sentiment140")
     
     # Visualizations
     st.markdown("### 📈 Model Performance Visualization")
@@ -671,7 +674,7 @@ elif selected_page == "Model Overview":
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem; padding: 1rem;">
-    🎬 <strong>IMDB Sentiment Analysis</strong> | CNN-LSTM Architecture | Built with ❤️ using TensorFlow & Streamlit<br>
+    🎬 <strong>IMDB Sentiment Analysis</strong> | CNN-LSTM Architecture | Built using TensorFlow & Streamlit | Assisted by Perplexity Ai with Sonnet Claude 4.0 model<br>
     <em>Developed by Steven, Aqil & Haiqal | Advanced Sentiment Analysis for Movie Reviews</em>
 </div>
 """, unsafe_allow_html=True)
