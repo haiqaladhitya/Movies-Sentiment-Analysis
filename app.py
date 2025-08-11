@@ -674,7 +674,7 @@ elif selected_page == "Model Overview":
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem; padding: 1rem;">
-    🎬 <strong>IMDB Sentiment Analysis</strong> | CNN-LSTM Architecture | Built using TensorFlow & Streamlit | Assisted by Perplexity Ai with Sonnet Claude 4.0 model<br>
+    🎬 <strong>IMDB Sentiment Analysis</strong> | CNN-LSTM Architecture | Built using TensorFlow & Streamlit<br>
     <em>Developed by Steven, Aqil & Haiqal | Advanced Sentiment Analysis for Movie Reviews</em>
 </div>
 """, unsafe_allow_html=True)
