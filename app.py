@@ -97,7 +97,7 @@ def load_model_and_preprocessing():
         with open('preprocessing_objects.pkl', 'rb') as f:
             preprocessing_objects = pickle.load(f)
         
-        st.success("✅ **DL Model Loaded**: Using trained CNN-LSTM model")
+        st.success("✅ **ML Model Loaded**: Using trained CNN-LSTM model")
         return model, preprocessing_objects
         
     except Exception as e:
