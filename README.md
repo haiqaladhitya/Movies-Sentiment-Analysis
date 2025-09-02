@@ -99,6 +99,6 @@ model.add(Dense(1, activation='sigmoid'))
 **Catatan:**  
 - File `preprocessing_objects.pkl` diperlukan untuk preprocessing.
 - Model dapat dikembangkan lebih lanjut untuk kebutuhan produksi.
-- Repo ini merupakan salinan (clone) dari repo tim, dengan penyesuaian dokumentasi agar dapat ditampilkan sebagai portofolio pribadi.  
-    Versi deploy asli: https://sentimentanalyst-c-lstm.streamlit.app/
-    Versi deploy saya: https://movies-sentiments.streamlit.app/
+- Repo ini merupakan salinan (clone) dari repo tim, dengan penyesuaian dokumentasi agar dapat ditampilkan sebagai portofolio pribadi.
+- Versi deploy asli: https://sentimentanalyst-c-lstm.streamlit.app/
+- Versi deploy saya: https://movies-sentiments.streamlit.app/
