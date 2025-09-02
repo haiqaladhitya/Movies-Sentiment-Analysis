@@ -167,9 +167,9 @@ st.sidebar.markdown("")
 st.sidebar.markdown("### 👥 Developers")
 st.sidebar.info("""
 **Project Created By:**
-- Steven
-- Aqil  
 - Haiqal
+- Aqil  
+- Steven
 
 🎬 IMDB Sentiment Analysis
 CNN-LSTM Architecture
@@ -675,6 +675,6 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem; padding: 1rem;">
     🎬 <strong>IMDB Sentiment Analysis</strong> | CNN-LSTM Architecture | Built using TensorFlow & Streamlit<br>
-    <em>Developed by Steven, Aqil & Haiqal | Advanced Sentiment Analysis for Movie Reviews</em>
+    <em>Developed by Haiqal, Aqil & Steven | Advanced Sentiment Analysis for Movie Reviews</em>
 </div>
 """, unsafe_allow_html=True)
