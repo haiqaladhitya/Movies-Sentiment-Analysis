@@ -97,7 +97,7 @@ def load_model_and_preprocessing():
         with open('preprocessing_objects.pkl', 'rb') as f:
             preprocessing_objects = pickle.load(f)
         
-        st.success("✅ **DL Model Loaded**: Using trained CNN-LSTM model")
+        st.success("✅ **ML Model Loaded**: Using trained CNN-LSTM model")
         return model, preprocessing_objects
         
     except Exception as e:
@@ -106,7 +106,7 @@ def load_model_and_preprocessing():
 
 # Prediction function
 def predict_sentiment(text, model, preprocessing_objects):
-    """Predict sentiment using DL model"""
+    """Predict sentiment using ML model"""
     try:
         tokenizer = preprocessing_objects['tokenizer']
         max_length = preprocessing_objects.get('max_length', 250)
@@ -584,7 +584,7 @@ elif selected_page == "Model Overview":
             if model is not None:
                 st.markdown("""
                 <div class="success-card">
-                    <h4>🤖 DL Model Active</h4>
+                    <h4>🤖 ML Model Active</h4>
                     <p><strong>Model:</strong> CNN-LSTM Deep Learning</p>
                     <p><strong>Status:</strong> ✅ Loaded & Ready</p>
                     <p><strong>Accuracy:</strong> 📊 ~87-90%</p>
